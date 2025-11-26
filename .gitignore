@@ -1,4 +1,37 @@
-.venv/
+﻿# Data files - NEVER commit these
+data/
+raw_data/
+*.csv
+*.zip
+*.xlsx
+*.pkl
+large_files/
+
+# Python
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+.nbgrader*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
